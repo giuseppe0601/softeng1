@@ -41,7 +41,7 @@ public class UserInterface {
         assert maxLevel>=0;
         System.out.println("Scegli il livello di difficoltà:");
         while (true) {
-            System.out.print("Inserisci un numero tra zero e "+
+            System.out.print("Inserisci un numero tra 0 e "+
                     maxLevel +": ");
             int scelta=scanner.nextInt();
             if (scelta>=0 && scelta<=maxLevel)
