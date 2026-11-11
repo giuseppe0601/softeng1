@@ -23,7 +23,7 @@ public class UserInterface {
     public int askMark() {
         System.out.println("Scegli il simbolo con cui giocherai:");
         while (true) {
-            System.out.print("Inserisci 1 per 'X' o 2 per 'O' : ");
+            System.out.print("Inseriscic 1 per 'X' o 2 per 'O' : ");
             int scelta=scanner.nextInt();
             if (scelta==1)
                 return Board.CELL_X;
