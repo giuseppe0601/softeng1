@@ -13,6 +13,9 @@ public class UserInterface {
         scanner=new Scanner(System.in);
     }
     
+    //modofica 
+    
+    
     /**
      * @brief Chiede all'utente con quale simbolo vuole giocare.
      * @return Board.CELL_X oppure Board.CELL_O
@@ -38,7 +41,7 @@ public class UserInterface {
         assert maxLevel>=0;
         System.out.println("Scegli il livello di difficoltà:");
         while (true) {
-            System.out.print("Inserisci un numero tra 0 e "+
+            System.out.print("Inserisci un numero tra zero e "+
                     maxLevel +": ");
             int scelta=scanner.nextInt();
             if (scelta>=0 && scelta<=maxLevel)
